@@ -1,0 +1,12 @@
+dylo_prod_resume_homepage:
+    path:     /
+    defaults: { _controller: DyloProdResumeBundle:Default:index }
+
+dylo_prod_resume_contact:
+    path:     /contact
+    defaults: { _controller: DyloProdResumeBundle:Default:contact }
+
+dylo_prod_resume_vcard:
+    path:     /vcard
+    defaults: { _controller: DyloProdResumeBundle:Default:vcard }
+ 

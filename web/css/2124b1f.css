@@ -1,0 +1,98 @@
+.un
+{
+	background-color: #262626;
+}
+
+.deux
+{
+	color: #2972AE;
+}
+
+.deux:hover
+{
+	color: #64BBFF;
+}
+
+.trois
+{
+	color: #64BBFF;
+}
+
+.quatre
+{
+	color: #FE9C79;
+}
+
+.cinq
+{
+	color: #DADADA;
+	transition: background-color 500ms ease 0s;
+	-webkit-transition: background-color 500ms ease 0s;
+	-o-transition: background-color 500ms ease 0s;
+	-moz-transition: background-color 500ms ease 0s;
+}
+
+#photo
+{
+	overflow: auto;
+	border-radius: 50%;
+	padding: 5px;
+	width: 150px;
+	height: 150px;
+}
+
+#photo img
+{
+	overflow: auto;	
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	transition: content 500ms ease 0s;
+	-webkit-transition: content 500ms ease 0s;
+	-o-transition: content 500ms ease 0s;
+	-moz-transition: content 500ms ease 0s;
+}
+
+body
+{
+	margin: 10px;
+	font-family: 'Vollkorn', sans-serif;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.logo
+{
+	height: 50px;
+	width: 50px;
+}
+
+.none
+{
+	display: none;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

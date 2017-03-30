@@ -1,0 +1,17 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: symfony
+    database_user: root
+    database_password: null
+    mailer_transport: sendmail
+    mailer_host: smtp.lodysaintgermain.com
+    mailer_user: postmaster@lodysaintgermain.com
+    mailer_password: KaElynn84Jeya
+    mailer_port: 465
+    mailer_encryption: ssl
+    mailer_auth_mode: login
+    secret: a9a556fcb9cf8daf17eed824aec46c15741d2067
+    mail_address: lodysg@gmail.com

@@ -1,0 +1,12 @@
+{% extends 'DyloProdResumeBundle::base.html.twig' %}
+
+{% block content %}
+<div class="row">
+	<div class="alert alert-danger col-md-offset-2 col-md-8 col-xs-12 text-center">
+		<h1><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Il y a un soucis ... Le page que vous demandez n'existe pas !!!</h1>
+		{% if status_code is defined %}
+			<p class="trois">Le seuveur dit : "{{ status_code }} - {{ status_text }}</p>
+		{% endif %}
+	</div>					
+</div>
+{% endblock %}

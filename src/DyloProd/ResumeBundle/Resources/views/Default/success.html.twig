@@ -1,0 +1,21 @@
+{% extends 'DyloProdResumeBundle::base.html.twig' %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-md-offset-4 col-md-4 col-xs-12 text-center">
+				<h1 class="alert alert-success">
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Message reçu !!!
+				</h1>	
+		</div>
+	</div>
+{% endblock %}
+
+{% block script %}
+	<script>
+		$(document).ready(function(){
+			window.setTimeout(function(){
+					$(location).attr('href', "{{ path('dylo_prod_resume_homepage') }}")
+				}, 3000);
+		});
+	</script>
+{% endblock %}
