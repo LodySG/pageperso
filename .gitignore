@@ -16,4 +16,4 @@
 /vendor/
 /web/bundles/
 app/cache/dev/
-app/logs/*
+app/logs/dev.log
